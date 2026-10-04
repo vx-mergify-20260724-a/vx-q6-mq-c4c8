@@ -1,0 +1,9 @@
+name: q6mq
+on:
+  merge_group:
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: echo "q6 merge_group noop"
